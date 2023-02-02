@@ -1,3 +1,5 @@
+"use client"
+import MainProvider from './providers/MainProvider'
 
 
 
@@ -7,7 +9,11 @@ import Home from '../app/components/screens/home/Home'
 
 const HomePage: NextPage = () => {
   return (
-    <Home />
+
+    <MainProvider>
+      <Home />
+
+    </MainProvider>
   )
 }
 
