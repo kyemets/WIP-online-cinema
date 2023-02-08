@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
-import logoImage from '../../../assets/images/logo3.svg';
+import logoImage from '../../../assets/images/logo.svg';
 
 const Logo: FC = () => {
     return (
