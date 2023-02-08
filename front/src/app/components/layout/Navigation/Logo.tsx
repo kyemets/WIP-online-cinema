@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
-import logoImage from '../../../assets/images/logo.svg';
+import logoImage from '../../../assets/images/logo3.svg';
 
 const Logo: FC = () => {
     return (
@@ -9,8 +9,8 @@ const Logo: FC = () => {
             <div className='px-layout mb-10 block'>
                 <Image
                     src={logoImage}
-                    width={247}
-                    height={34}
+                    width={50}
+                    height={50}
                     alt='online-cinema'
                     draggable={false}
                 />
