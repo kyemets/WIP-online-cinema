@@ -9,6 +9,7 @@ import { ActorModule } from './actor/actor.module'
 import { AuthModule } from './auth/auth.module'
 import { getMongoConfig } from './config/mongo.config'
 import { FilesModule } from './files/files.module'
+import { TelegramModule } from './telegram/telegram.module'
 import { UserModule } from './user/user.module'
 
 import { TypegooseModule } from 'nestjs-typegoose'
@@ -28,6 +29,7 @@ import { RatingModule } from './rating/rating.module'
 		UserModule,
 		AuthModule,
 		FilesModule,
+		TelegramModule,
 		RatingModule,
 	],
 	controllers: [AppController],

@@ -46,4 +46,7 @@ export class CreateMovieDto {
 
 	@IsString()
 	slug: string
+
+	@IsBoolean()
+	isSendTelegram?: boolean
 }

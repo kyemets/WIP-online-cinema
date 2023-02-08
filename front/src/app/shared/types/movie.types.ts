@@ -23,7 +23,7 @@ export interface IActor {
 }
 export interface IMovie {
     _id: string;
-    posters: string;
+    poster: string;
     bigPosters: string;
     title: string;
     parameters: IParameters;
