@@ -16,11 +16,9 @@ export const MenuItem: FC<{ item: IMenuItem }> = ({ item }) => {
             [styles.active]: router.asPath === item.link
         })}>
             <Link href={`${item.link}`}>
-                {/* <a> */}
                 {/* TODO: must be fixed */}
                 {/* <MaterialIcon name={item.icon} /> */}
                 <span>{item.title}</span>
-                {/* </a> */}
             </Link>
         </li >
     )

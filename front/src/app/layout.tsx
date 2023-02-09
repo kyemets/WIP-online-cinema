@@ -1,4 +1,4 @@
-import './globals.scss'
+import '../app/assets/styles/globals.scss'
 import MainProvider from './providers/MainProvider'
 
 export default function RootLayout({
